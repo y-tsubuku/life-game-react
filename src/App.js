@@ -121,7 +121,6 @@ class App extends Component {
 
   reverseIsAlive = (x, y) => {
     const {board} = this.state
-    console.log(x, y)
     const cell = board.find(cell => cell.x === x && cell.y === y)
     const newBoard = [
       ...board.filter(cell => !(cell.x === x && cell.y === y)),
