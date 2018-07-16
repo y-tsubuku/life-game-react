@@ -29,8 +29,6 @@ class App extends Component {
 
   componentDidMount() {
     this.initBoard()
-
-    this.next()
     this.startTimer()
   }
 
